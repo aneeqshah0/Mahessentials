@@ -1,1 +1,149 @@
-{"sections":{"image_banner_Jahxiz":{"type":"image-banner","name":"t:sections.image-banner.presets.name","settings":{"image":"shopify:\/\/shop_images\/Mah_Essentials_Second_Banner.svg","image_overlay_opacity":0,"image_height":"large","image_behavior":"none","desktop_content_position":"middle-center","desktop_content_alignment":"center","show_text_box":false,"color_scheme":"","stack_images_on_mobile":true,"mobile_content_alignment":"left","show_text_below":true}},"collection_list_rAYhp8":{"type":"collection-list","blocks":{"featured_collection_9YGBxx":{"type":"featured_collection","settings":{"collection":"night-wear"}},"featured_collection_tPiDWU":{"type":"featured_collection","settings":{"collection":"body-shaper"}},"featured_collection_YE9RCp":{"type":"featured_collection","settings":{"collection":"bra"}},"featured_collection_hyLgTz":{"type":"featured_collection","settings":{"collection":"penties"}},"featured_collection_ceNmK8":{"type":"featured_collection","settings":{"collection":"bra-panti"}}},"block_order":["featured_collection_9YGBxx","featured_collection_tPiDWU","featured_collection_YE9RCp","featured_collection_hyLgTz","featured_collection_ceNmK8"],"custom_css":[".collection-list .card,.collection-list .card__inner {background: 0; box-shadow: none; padding: 0;}",".collection-list .media,.collection-list .media img {border-radius: 50%; overflow: hidden; object-fit: cover;}",".collection-list .icon-wrap {display: none;}",".collection-list .card__content {text-align: center;}",".collection-list .card__heading a {text-decoration: none; font: 700 14px \"Playfair Display\", serif; letter-spacing: 1px; text-transform: uppercase;}"],"name":"t:sections.collection-list.presets.name","settings":{"title":"<strong>Categories<\/strong>","heading_size":"h1","image_ratio":"square","columns_desktop":5,"color_scheme":"","show_view_all":false,"columns_mobile":"2","swipe_on_mobile":true,"padding_top":36,"padding_bottom":36}},"image_banner_jMnBbV":{"type":"image-banner","name":"t:sections.image-banner.presets.name","settings":{"image":"shopify:\/\/shop_images\/Mah_Essentials_First_Banner.svg","image_overlay_opacity":0,"image_height":"medium","image_behavior":"none","desktop_content_position":"top-center","desktop_content_alignment":"center","show_text_box":true,"color_scheme":"","stack_images_on_mobile":true,"mobile_content_alignment":"left","show_text_below":true}}},"order":["image_banner_Jahxiz","collection_list_rAYhp8","image_banner_jMnBbV"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_Jahxiz": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Mah_Essentials_Second_Banner.svg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "left",
+        "show_text_below": true
+      }
+    },
+    "collection_list_rAYhp8": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_9YGBxx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "night-wear"
+          }
+        },
+        "featured_collection_tPiDWU": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "body-shaper"
+          }
+        },
+        "featured_collection_YE9RCp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bra"
+          }
+        },
+        "featured_collection_hyLgTz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "penties"
+          }
+        },
+        "featured_collection_ceNmK8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bra-panti"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_9YGBxx",
+        "featured_collection_tPiDWU",
+        "featured_collection_YE9RCp",
+        "featured_collection_hyLgTz",
+        "featured_collection_ceNmK8"
+      ],
+      "custom_css": [
+        ".collection-list .card,.collection-list .card__inner {background: 0; box-shadow: none; padding: 0;}",
+        ".collection-list .media,.collection-list .media img {border-radius: 50%; overflow: hidden; object-fit: cover;}",
+        ".collection-list .icon-wrap {display: none;}",
+        ".collection-list .card__content {text-align: center;}",
+        ".collection-list .card__heading a {text-decoration: none; font: 700 14px \"Playfair Display\", serif; letter-spacing: 1px; text-transform: uppercase;}"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "<strong>Categories</strong>",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_jMnBbV": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Mah_Essentials_First_Banner.svg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "top-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "left",
+        "show_text_below": true
+      }
+    },
+    "newsletter_YkpUyT": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_MET6q6": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>JOIN THE MAHESSENTIALS COMMUNITY</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph_JrmtRj": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to hear about events, product launches, brand releases, blog updates, and exclusive discounts. Come along for our ride today!</p>"
+          }
+        },
+        "email_form_LmJ6xA": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_MET6q6",
+        "paragraph_JrmtRj",
+        "email_form_LmJ6xA"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "image_banner_Jahxiz",
+    "collection_list_rAYhp8",
+    "image_banner_jMnBbV",
+    "newsletter_YkpUyT"
+  ]
+}
