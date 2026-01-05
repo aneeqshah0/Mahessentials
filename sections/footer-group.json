@@ -13,6 +13,18 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "text_Qzc6KU": {
+          "type": "text",
+          "settings": {
+            "heading": "<strong>NEED HELP?</strong>",
+            "subtext": "<p>Call us Monday–Friday,<br/>8:00am to 5.30pm <br/><br/>Phone No: +92-332-007-1057<br/><br/>Email us anytime for a response within 24 hours: afrasyab.alvi@gmail.com</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_Qzc6KU"
+      ],
       "settings": {
         "color_scheme": "scheme-4",
         "newsletter_enable": false,
