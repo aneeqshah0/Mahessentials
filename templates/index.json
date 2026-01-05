@@ -108,20 +108,20 @@
     "multicolumn_LCRPna": {
       "type": "multicolumn",
       "blocks": {
-        "column_m73EJg": {
+        "column_LQfJBF": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Delivery Offer",
+            "text": "<p>📢 Free shipping in Pakistan on all orders above PKR 5,000</p>",
             "link_label": "",
             "link": ""
           }
         },
-        "column_LQfJBF": {
+        "column_m73EJg": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Exchange Policy",
+            "text": "<p>Exchanged within 30 days. Sale items can be exchange except Panties & Accessories</p>",
             "link_label": "",
             "link": ""
           }
@@ -129,16 +129,16 @@
         "column_AMddrn": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Delivery Time",
+            "text": "<p>All Orders will be delivered in 5 to 6 working days</p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_m73EJg",
         "column_LQfJBF",
+        "column_m73EJg",
         "column_AMddrn"
       ],
       "name": "t:sections.multicolumn.presets.name",
