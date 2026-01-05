@@ -105,6 +105,60 @@
         "show_text_below": true
       }
     },
+    "multicolumn_LCRPna": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_m73EJg": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LQfJBF": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AMddrn": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_m73EJg",
+        "column_LQfJBF",
+        "column_AMddrn"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "<strong>BENEFITS OF OUR SOLUTIONS</strong>",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "newsletter_YkpUyT": {
       "type": "newsletter",
       "blocks": {
@@ -144,6 +198,7 @@
     "image_banner_Jahxiz",
     "collection_list_rAYhp8",
     "image_banner_jMnBbV",
+    "multicolumn_LCRPna",
     "newsletter_YkpUyT"
   ]
 }
