@@ -1,5 +1,45 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "rich_text_UnALN6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pqpzMB": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>OUR BEST CHOICES - ONE PLACE</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_hC4Kig": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Navigate our collections easily and discover products designed to delight.<br/>Browse our diverse range of collections—something special for every need and taste.<br/>Everything you need, organized into collections to make shopping simple and enjoyable.</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pqpzMB",
+        "text_hC4Kig"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 40
+      }
+    },
     "main": {
       "type": "main-list-collections",
       "settings": {
@@ -12,6 +52,7 @@
     }
   },
   "order": [
+    "rich_text_UnALN6",
     "main"
   ]
 }
