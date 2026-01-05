@@ -16,7 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/banner.jpg",
-            "image_overlay_opacity": 20,
+            "image_overlay_opacity": 30,
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -37,7 +37,7 @@
       "name": "t:sections.slideshow.presets.name",
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "adapt_image",
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 3,
