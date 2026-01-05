@@ -105,6 +105,37 @@
         "show_text_below": true
       }
     },
+    "rich_text_b9aa3L": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LDCW9w": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>WELCOME TO SECRET DESIRE</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_wrFfha": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Buying lingerie online in Pakistan has never been easier than with <strong>Secret Desire</strong>. We offer a wide range of high-quality bras, panties, shapewear, maternity wear, swimsuits, and bridal lingerie from both local and international brands. Whether you need everyday essentials, special bridal pieces, or unique lingerie accessories, we have something for every woman. Shop confidently with our competitive prices, extensive catalogue, and all-female support team available via chat, WhatsApp, or phone. With Losha, the perfect fit and style are just a click away – anytime, anywhere.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LDCW9w",
+        "text_wrFfha"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multicolumn_LCRPna": {
       "type": "multicolumn",
       "blocks": {
@@ -153,7 +184,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "<strong>BENEFITS OF OUR SOLUTIONS</strong>",
+        "title": "<strong>BENEFITS OF OUR COLLECTION</strong>",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -175,7 +206,7 @@
         "heading_MET6q6": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>JOIN THE MAHESSENTIALS COMMUNITY</strong>",
+            "heading": "<strong>JOIN THE SECRET DESIRE COMMUNITY</strong>",
             "heading_size": "h2"
           }
         },
@@ -208,6 +239,7 @@
     "image_banner_Jahxiz",
     "collection_list_rAYhp8",
     "image_banner_jMnBbV",
+    "rich_text_b9aa3L",
     "multicolumn_LCRPna",
     "newsletter_YkpUyT"
   ]
