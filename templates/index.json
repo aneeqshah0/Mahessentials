@@ -112,7 +112,7 @@
           "type": "column",
           "settings": {
             "title": "Delivery Offer",
-            "text": "<p>📢 Free shipping in Pakistan on all orders above PKR 5,000</p>",
+            "text": "<p>📢 Enjoy free shipping anywhere in Pakistan on orders over PKR 5,000.</p>",
             "link_label": "",
             "link": ""
           }
@@ -121,7 +121,7 @@
           "type": "column",
           "settings": {
             "title": "Exchange Policy",
-            "text": "<p>Exchanged within 30 days. Sale items can be exchange except Panties & Accessories</p>",
+            "text": "<p>Exchanges are accepted within 30 days. Sale items are also eligible for exchange, subject to availability.</p>",
             "link_label": "",
             "link": ""
           }
@@ -130,7 +130,7 @@
           "type": "column",
           "settings": {
             "title": "Delivery Time",
-            "text": "<p>All Orders will be delivered in 5 to 6 working days</p>",
+            "text": "<p>Orders are processed and delivered within 5 to 6 working days.</p>",
             "link_label": "",
             "link": ""
           }
