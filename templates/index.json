@@ -9,21 +9,41 @@
  */
 {
   "sections": {
-    "image_banner_Jahxiz": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
+    "slideshow_y8UHbA": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_whE8gW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/banner.jpg",
+            "image_overlay_opacity": 20,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_whE8gW"
+      ],
+      "name": "t:sections.slideshow.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Mah_Essentials_Second_Banner.svg",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
         "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "left",
-        "show_text_below": true
+        "show_text_below": true,
+        "accessibility_info": ""
       }
     },
     "rich_text_b9aa3L": {
@@ -219,7 +239,7 @@
     }
   },
   "order": [
-    "image_banner_Jahxiz",
+    "slideshow_y8UHbA",
     "rich_text_b9aa3L",
     "collection_list_rAYhp8",
     "multicolumn_LCRPna",
