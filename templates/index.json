@@ -111,8 +111,8 @@
         "column_LQfJBF": {
           "type": "column",
           "settings": {
-            "title": "Delivery Offer",
-            "text": "<p>📢 Enjoy free shipping anywhere in Pakistan on orders over PKR 5,000.</p>",
+            "title": "All-Day Comfort",
+            "text": "<p>Designed with soft, breathable fabrics that provide lasting comfort from morning to night.</p>",
             "link_label": "",
             "link": ""
           }
@@ -120,8 +120,8 @@
         "column_m73EJg": {
           "type": "column",
           "settings": {
-            "title": "Exchange Policy",
-            "text": "<p>Exchanges are accepted within 30 days. Sale items are also eligible for exchange, subject to availability.</p>",
+            "title": "Perfect Fit",
+            "text": "<p>Expertly crafted bras and underwear that support and shape beautifully for every body type.</p>",
             "link_label": "",
             "link": ""
           }
@@ -129,8 +129,17 @@
         "column_AMddrn": {
           "type": "column",
           "settings": {
-            "title": "Delivery Time",
-            "text": "<p>Orders are processed and delivered within 5 to 6 working days.</p>",
+            "title": "Premium Quality",
+            "text": "<p>High-quality materials and durable stitching ensure long-lasting wear and confidence.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YQ3AYe": {
+          "type": "column",
+          "settings": {
+            "title": "Style & Versatility",
+            "text": "<p>From everyday essentials to elegant designs, our collection blends style, functionality, and femininity.</p>",
             "link_label": "",
             "link": ""
           }
@@ -139,7 +148,8 @@
       "block_order": [
         "column_LQfJBF",
         "column_m73EJg",
-        "column_AMddrn"
+        "column_AMddrn",
+        "column_YQ3AYe"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -149,12 +159,12 @@
         "image_ratio": "adapt",
         "button_label": "",
         "button_link": "",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "primary",
         "color_scheme": "",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
