@@ -10,7 +10,7 @@
 {
   "current": {
     "logo": "shopify://shop_images/MahEssentials_Logo.png",
-    "logo_width": 190,
+    "logo_width": 130,
     "favicon": "shopify://shop_images/favicon_for_mahessential.png",
     "type_header_font": "roboto_n5",
     "heading_scale": 100,
@@ -41,7 +41,7 @@
     "inputs_radius": 4,
     "inputs_shadow_opacity": 0,
     "inputs_shadow_horizontal_offset": 0,
-    "inputs_shadow_vertical_offset": 4,
+    "inputs_shadow_vertical_offset": 0,
     "inputs_shadow_blur": 5,
     "card_style": "card",
     "card_image_padding": 10,
