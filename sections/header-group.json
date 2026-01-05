@@ -17,8 +17,8 @@
         "announcement_Aqr7LR": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome To Secret Desire – Your Perfect Fit, Every Day!",
-            "link": "shopify://collections/all"
+            "text": "PAK Secret Desire – Delivered Directly To Your Door By An Official Certified Platinum Partner",
+            "link": ""
           }
         }
       },
@@ -39,6 +39,13 @@
     "announcement_bar_nqyEDc": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_Nb7U9J": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to Secret Desire – Your Perfect Fit, Every Day!",
+            "link": "shopify://collections/all"
+          }
+        },
         "announcement_7rxANP": {
           "type": "announcement",
           "settings": {
@@ -48,6 +55,7 @@
         }
       },
       "block_order": [
+        "announcement_Nb7U9J",
         "announcement_7rxANP"
       ],
       "name": "t:sections.announcement-bar.presets.name",
