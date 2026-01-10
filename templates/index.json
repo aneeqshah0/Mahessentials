@@ -203,6 +203,76 @@
         "padding_bottom": 36
       }
     },
+    "featured_product_zabycX": {
+      "type": "featured-product",
+      "blocks": {
+        "text_6eimEr": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_NhxECJ": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_iEF8MA": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_mw7rdU": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_q4dHgX": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_EpcTpp": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_FfpLN7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_6eimEr",
+        "title_NhxECJ",
+        "price_iEF8MA",
+        "variant_picker_mw7rdU",
+        "quantity_selector_q4dHgX",
+        "buy_buttons_EpcTpp",
+        "share_FfpLN7"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "luxury-women-s-cotton-innerwear-set-soft-bra-brief",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "newsletter_YkpUyT": {
       "type": "newsletter",
       "blocks": {
@@ -243,6 +313,7 @@
     "rich_text_b9aa3L",
     "collection_list_rAYhp8",
     "multicolumn_LCRPna",
+    "featured_product_zabycX",
     "newsletter_YkpUyT"
   ]
 }
