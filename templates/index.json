@@ -86,12 +86,6 @@
             "collection": "night-wear"
           }
         },
-        "featured_collection_tPiDWU": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "body-shaper"
-          }
-        },
         "featured_collection_YE9RCp": {
           "type": "featured_collection",
           "settings": {
@@ -113,7 +107,6 @@
       },
       "block_order": [
         "featured_collection_9YGBxx",
-        "featured_collection_tPiDWU",
         "featured_collection_YE9RCp",
         "featured_collection_hyLgTz",
         "featured_collection_ceNmK8"
@@ -130,7 +123,7 @@
         "title": "<strong>Categories</strong>",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 5,
+        "columns_desktop": 4,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "2",
