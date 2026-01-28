@@ -3647,3 +3647,24 @@ details-disclosure > details {
 .header__search {
     display: none !important;
 }
+/* Hide slider arrows */
+.slider-button--prev,
+.slider-button--next {
+  display: none !important;
+}
+
+/* Hide play / pause button */
+.slideshow__controls button {
+  display: none !important;
+}
+
+/* Keep dots visible and centered */
+.slideshow__controls {
+  justify-content: center !important;
+}
+
+/* Ensure dots stay visible */
+.slider-counter,
+.slideshow__control-wrapper {
+  display: flex !important;
+}
