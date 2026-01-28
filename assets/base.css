@@ -3736,35 +3736,7 @@ details-disclosure > details {
   color: #1A1A1A;
 }
 
-#shopify-secti/* =====================================
-   HERO BANNER MOBILE FIX
-   ===================================== */
-
-@media screen and (max-width: 749px) {
-
-  /* Target slideshow / hero image */
-  .slideshow__media img,
-  .banner__media img {
-    object-fit: contain !important;
-    object-position: center top !important;
-    width: 100%;
-    height: auto;
-  }
-
-  /* Increase height so image breathes */
-  .slideshow,
-  .banner {
-    min-height: 65vh;
-  }
-
-  /* Center text properly */
-  .slideshow__text,
-  .banner__content {
-    padding: 20px;
-    text-align: center;
-  }
-}
-on-template--25956008231223__multicolumn_LCRPna p {
+#shopify-section-template--25956008231223__multicolumn_LCRPna p {
   color: #555555;
 }
 #shopify-section-template--25956008231223__multicolumn_LCRPna .multicolumn-card {
@@ -3773,4 +3745,32 @@ on-template--25956008231223__multicolumn_LCRPna p {
   padding: 30px 24px;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
+}
+@media screen and (max-width: 749px) {
+
+  /* Force hero image to stop side-cropping */
+  .slideshow__media,
+  .banner__media {
+    background-size: contain !important;
+    background-position: center top !important;
+  }
+
+  /* Remove Dawn’s forced aspect ratio */
+  .slideshow__media.media--adapt,
+  .banner__media.media--adapt {
+    aspect-ratio: auto !important;
+  }
+
+  /* Give image enough vertical space */
+  .slideshow,
+  .banner {
+    min-height: 70vh !important;
+  }
+
+  /* Keep text visible */
+  .slideshow__text-wrapper,
+  .banner__content {
+    padding: 20px !important;
+    text-align: center !important;
+  }
 }
