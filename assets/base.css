@@ -3671,3 +3671,12 @@ details-disclosure > details {
 .slider-counter {
   display: flex !important;
 }
+.slider-counter__link {
+  width: 6px;
+  height: 6px;
+  opacity: 0.35;
+}
+
+.slider-counter__link--active {
+  opacity: 1;
+}
