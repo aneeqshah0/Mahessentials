@@ -3647,3 +3647,27 @@ details-disclosure > details {
 .header__search {
     display: none !important;
 }
+/* ================================
+   DAWN 15.4.1 – SLIDESHOW CONTROLS
+   Keep dots only (luxury style)
+================================ */
+
+/* Hide left & right arrows */
+.slideshow__controls .slider-button {
+  display: none !important;
+}
+
+/* Hide autoplay play/pause button */
+.slideshow__controls .slideshow__autoplay {
+  display: none !important;
+}
+
+/* Keep dots visible and centered */
+.slideshow__controls {
+  justify-content: center !important;
+}
+
+/* Ensure dots stay active */
+.slider-counter {
+  display: flex !important;
+}
