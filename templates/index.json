@@ -9,79 +9,21 @@
  */
 {
   "sections": {
-    "slideshow_htK8wx": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_nFEVN4": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/banner_2_2.jpg",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": false,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
-          }
-        },
-        "slide_3P89nW": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/banner_2_3.jpg",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": false,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
-          }
-        },
-        "slide_FizfkP": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/banner_2_1.jpg",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": false,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_nFEVN4",
-        "slide_3P89nW",
-        "slide_FizfkP"
-      ],
-      "name": "t:sections.slideshow.presets.name",
+    "image_banner_dAeWP8": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
+        "image": "shopify://shop_images/ChatGPT_Image_Jan_29_2026_01_33_53_AM.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
         "image_behavior": "none",
-        "show_text_below": false,
-        "accessibility_info": ""
+        "desktop_content_position": "bottom-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
       }
     },
     "collection_list_rAYhp8": {
@@ -172,11 +114,74 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "featured_product_hhBPkL": {
+      "type": "featured-product",
+      "blocks": {
+        "text_bbH3nU": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "uppercase"
+          }
+        },
+        "title_iY8TPz": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_rR3HWH": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_brLLzy": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_wNY7Lt": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "share_YjPy9D": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_bbH3nU",
+        "title_iY8TPz",
+        "price_rR3HWH",
+        "variant_picker_brLLzy",
+        "quantity_selector_wNY7Lt",
+        "share_YjPy9D"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "luxury-women-s-seamless-nude-innerwear-set",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "slideshow_htK8wx",
+    "image_banner_dAeWP8",
     "collection_list_rAYhp8",
-    "newsletter_YkpUyT"
+    "newsletter_YkpUyT",
+    "featured_product_hhBPkL"
   ]
 }
