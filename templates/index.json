@@ -12,11 +12,11 @@
     "slideshow_y8UHbA": {
       "type": "slideshow",
       "blocks": {
-        "slide_whE8gW": {
+        "slide_VyhgNE": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Jan_19_2026_02_33_38_AM.png",
-            "image_overlay_opacity": 30,
+            "image": "shopify://shop_images/ChatGPT_Image_Jan_28_2026_10_09_05_AM.png",
+            "image_overlay_opacity": 0,
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -27,12 +27,31 @@
             "box_align": "middle-center",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
-            "color_scheme": ""
+            "color_scheme": "scheme-1"
+          }
+        },
+        "slide_NVpnYF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Jan_28_2026_10_03_58_AM.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
           }
         }
       },
       "block_order": [
-        "slide_whE8gW"
+        "slide_VyhgNE",
+        "slide_NVpnYF"
       ],
       "name": "t:sections.slideshow.presets.name",
       "settings": {
@@ -42,7 +61,7 @@
         "auto_rotate": true,
         "change_slides_speed": 3,
         "image_behavior": "none",
-        "show_text_below": true,
+        "show_text_below": false,
         "accessibility_info": ""
       }
     },
