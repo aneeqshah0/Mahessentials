@@ -3746,31 +3746,3 @@ details-disclosure > details {
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
 }
-@media screen and (max-width: 749px) {
-
-  /* Force hero image to stop side-cropping */
-  .slideshow__media,
-  .banner__media {
-    background-size: contain !important;
-    background-position: center top !important;
-  }
-
-  /* Remove Dawn’s forced aspect ratio */
-  .slideshow__media.media--adapt,
-  .banner__media.media--adapt {
-    aspect-ratio: auto !important;
-  }
-
-  /* Give image enough vertical space */
-  .slideshow,
-  .banner {
-    min-height: 70vh !important;
-  }
-
-  /* Keep text visible */
-  .slideshow__text-wrapper,
-  .banner__content {
-    padding: 20px !important;
-    text-align: center !important;
-  }
-}
