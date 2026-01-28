@@ -3680,3 +3680,18 @@ details-disclosure > details {
 .slider-counter__link--active {
   opacity: 1;
 }
+/* Remove line under slideshow section (Dawn 15.4.1) */
+.slideshow {
+  border-bottom: none !important;
+}
+
+/* Remove any divider added by section spacing */
+.slideshow::after,
+.slideshow::before {
+  display: none !important;
+}
+
+/* Extra safety: remove section separators */
+.section + .section::before {
+  display: none !important;
+}
