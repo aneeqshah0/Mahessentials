@@ -9,62 +9,6 @@
  */
 {
   "sections": {
-    "slideshow_y8UHbA": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_VyhgNE": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Jan_28_2026_10_09_05_AM.png",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": false,
-            "box_align": "middle-left",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": "scheme-1"
-          }
-        },
-        "slide_NVpnYF": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_Jan_28_2026_10_03_58_AM.png",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": false,
-            "box_align": "middle-left",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": "scheme-1"
-          }
-        }
-      },
-      "block_order": [
-        "slide_VyhgNE",
-        "slide_NVpnYF"
-      ],
-      "name": "t:sections.slideshow.presets.name",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 3,
-        "image_behavior": "none",
-        "show_text_below": false,
-        "accessibility_info": ""
-      }
-    },
     "collection_list_rAYhp8": {
       "type": "collection-list",
       "blocks": {
@@ -153,11 +97,86 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "slideshow_htK8wx": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_nFEVN4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/banner_2_2.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_3P89nW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/banner_2_3.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_FizfkP": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/banner_2_1.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_nFEVN4",
+        "slide_3P89nW",
+        "slide_FizfkP"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": ""
+      }
     }
   },
   "order": [
-    "slideshow_y8UHbA",
     "collection_list_rAYhp8",
-    "newsletter_YkpUyT"
+    "newsletter_YkpUyT",
+    "slideshow_htK8wx"
   ]
 }
