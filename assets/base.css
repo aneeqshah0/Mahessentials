@@ -3739,3 +3739,10 @@ details-disclosure > details {
 #shopify-section-template--25956008231223__multicolumn_LCRPna p {
   color: #555555;
 }
+#shopify-section-template--25956008231223__multicolumn_LCRPna .multicolumn-card {
+  background-color: #FAF7F2;
+  border-radius: 18px;
+  padding: 30px 24px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
