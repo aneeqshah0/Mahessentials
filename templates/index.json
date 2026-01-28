@@ -99,64 +99,36 @@
     "collection_list_rAYhp8": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_pmyYD7": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "women-essentials"
-          }
-        },
-        "featured_collection_bQhwB7": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "watches"
-          }
-        },
-        "featured_collection_iE6nGc": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "premium-picks"
-          }
-        },
-        "featured_collection_VaVDUR": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "nightwear"
-          }
-        },
-        "featured_collection_bfPDmB": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "new-arrivals"
-          }
-        },
-        "featured_collection_rPmmi3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "men-essentials"
-          }
-        },
-        "featured_collection_YtmThY": {
+        "featured_collection_HV3Bwg": {
           "type": "featured_collection",
           "settings": {
             "collection": "jewellery"
           }
         },
-        "featured_collection_UXpMaU": {
+        "featured_collection_6mjL7f": {
           "type": "featured_collection",
           "settings": {
-            "collection": "best-sellers"
+            "collection": "nightwear"
+          }
+        },
+        "featured_collection_fP6XaL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "women-essentials"
+          }
+        },
+        "featured_collection_EpQW6J": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "watches"
           }
         }
       },
       "block_order": [
-        "featured_collection_pmyYD7",
-        "featured_collection_bQhwB7",
-        "featured_collection_iE6nGc",
-        "featured_collection_VaVDUR",
-        "featured_collection_bfPDmB",
-        "featured_collection_rPmmi3",
-        "featured_collection_YtmThY",
-        "featured_collection_UXpMaU"
+        "featured_collection_HV3Bwg",
+        "featured_collection_6mjL7f",
+        "featured_collection_fP6XaL",
+        "featured_collection_EpQW6J"
       ],
       "custom_css": [
         ".collection-list .card,.collection-list .card__inner {background: 0; box-shadow: none; padding: 0;}",
