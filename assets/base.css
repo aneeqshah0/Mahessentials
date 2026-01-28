@@ -3647,54 +3647,6 @@ details-disclosure > details {
 .header__search {
     display: none !important;
 }
-/* ================================
-   DAWN 15.4.1 – SLIDESHOW CONTROLS
-   Keep dots only (luxury style)
-================================ */
-
-/* Hide left & right arrows */
-.slideshow__controls .slider-button {
-  display: none !important;
-}
-
-/* Hide autoplay play/pause button */
-.slideshow__controls .slideshow__autoplay {
-  display: none !important;
-}
-
-/* Keep dots visible and centered */
-.slideshow__controls {
-  justify-content: center !important;
-}
-
-/* Ensure dots stay active */
-.slider-counter {
-  display: flex !important;
-}
-.slider-counter__link {
-  width: 6px;
-  height: 6px;
-  opacity: 0.35;
-}
-
-.slider-counter__link--active {
-  opacity: 1;
-}
-/* Remove line under slideshow section (Dawn 15.4.1) */
-.slideshow {
-  border-bottom: none !important;
-}
-
-/* Remove any divider added by section spacing */
-.slideshow::after,
-.slideshow::before {
-  display: none !important;
-}
-
-/* Extra safety: remove section separators */
-.section + .section::before {
-  display: none !important;
-}
 /* =====================================
    BENEFITS OF OUR COLLECTION – Background
    ===================================== */
