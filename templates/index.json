@@ -65,37 +65,6 @@
         "accessibility_info": ""
       }
     },
-    "rich_text_b9aa3L": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_LDCW9w": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>WELCOME TO Mehira Hub</strong>",
-            "heading_size": "h2"
-          }
-        },
-        "text_wrFfha": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Buying lingerie online in Pakistan has never been easier than with <strong>Mehira Hub</strong>. We offer a wide range of high-quality bras, panties, shapewear, maternity wear, swimsuits, and bridal lingerie from both local and international brands. Whether you need everyday essentials, special bridal pieces, or unique lingerie accessories, we have something for every woman. Shop confidently with our competitive prices, extensive catalogue, and all-female support team available via chat, WhatsApp, or phone. With Losha, the perfect fit and style are just a click away – anytime, anywhere.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_LDCW9w",
-        "text_wrFfha"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "collection_list_rAYhp8": {
       "type": "collection-list",
       "blocks": {
@@ -151,169 +120,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_LCRPna": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_LQfJBF": {
-          "type": "column",
-          "settings": {
-            "title": "All-Day Comfort",
-            "text": "<p>Designed with soft, breathable fabrics that provide lasting comfort from morning to night.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_m73EJg": {
-          "type": "column",
-          "settings": {
-            "title": "Perfect Fit",
-            "text": "<p>Expertly crafted bras and underwear that support and shape beautifully for every body type.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_AMddrn": {
-          "type": "column",
-          "settings": {
-            "title": "Premium Quality",
-            "text": "<p>High-quality materials and durable stitching ensure long-lasting wear and confidence.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_YQ3AYe": {
-          "type": "column",
-          "settings": {
-            "title": "Style & Versatility",
-            "text": "<p>From everyday essentials to elegant designs, our collection blends style, functionality, and femininity.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_LQfJBF",
-        "column_m73EJg",
-        "column_AMddrn",
-        "column_YQ3AYe"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "<strong>BENEFITS OF OUR COLLECTION</strong>",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_product_zabycX": {
-      "type": "featured-product",
-      "blocks": {
-        "text_6eimEr": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_NhxECJ": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_iEF8MA": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_mw7rdU": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_q4dHgX": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_EpcTpp": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share_FfpLN7": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "text_6eimEr",
-        "title_NhxECJ",
-        "price_iEF8MA",
-        "variant_picker_mw7rdU",
-        "quantity_selector_q4dHgX",
-        "buy_buttons_EpcTpp",
-        "share_FfpLN7"
-      ],
-      "name": "t:sections.featured-product.presets.name",
-      "settings": {
-        "product": "luxury-women-s-cotton-innerwear-set-soft-bra-brief",
-        "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_MqdnFR": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "collection": "top-picks",
-        "products_to_show": 4,
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "newsletter_YkpUyT": {
       "type": "newsletter",
       "blocks": {
@@ -351,11 +157,7 @@
   },
   "order": [
     "slideshow_y8UHbA",
-    "rich_text_b9aa3L",
     "collection_list_rAYhp8",
-    "multicolumn_LCRPna",
-    "featured_product_zabycX",
-    "featured_collection_MqdnFR",
     "newsletter_YkpUyT"
   ]
 }
