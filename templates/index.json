@@ -13,17 +13,17 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Black_and_Yellow_Modern_Flash_Sale_Instagram_Post.png",
+        "image": "shopify://shop_images/d503bb06-f738-4aa8-842f-21b6ae19e55e.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_behavior": "none",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "top-center",
         "desktop_content_alignment": "center",
-        "show_text_box": true,
+        "show_text_box": false,
         "color_scheme": "",
         "stack_images_on_mobile": true,
-        "mobile_content_alignment": "right",
-        "show_text_below": false
+        "mobile_content_alignment": "center",
+        "show_text_below": true
       }
     },
     "collection_list_rAYhp8": {
