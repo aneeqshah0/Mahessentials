@@ -20,27 +20,17 @@
     "multicolumn_UJ3ceh": {
       "type": "multicolumn",
       "blocks": {
-        "column_fHnBQg": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>CALL</strong>",
-            "text": "<p><a href=\"tel:+923320071057\" title=\"tel:+923320071057\">+92-332-007-1057</a></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_qDiLU3": {
           "type": "column",
           "settings": {
             "title": "<strong>EMAIL</strong>",
-            "text": "<p><a href=\"mailto:afrasyab.alvi@gmail.com\" title=\"mailto:afrasyab.alvi@gmail.com\">info@secretdesire.com</a></p>",
+            "text": "<p>mehrammart@gmail.com</p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column_fHnBQg",
         "column_qDiLU3"
       ],
       "name": "t:sections.multicolumn.presets.name",
