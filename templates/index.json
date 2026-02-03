@@ -137,7 +137,7 @@
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
-        "product": "royal-rang-jhumka",
+        "product": "emerald-royale-set",
         "color_scheme": "",
         "secondary_background": false,
         "media_size": "medium",
@@ -156,14 +156,14 @@
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "jewellery",
-        "products_to_show": 4,
-        "title": "Featured collection",
+        "products_to_show": 25,
+        "title": "Our Jewellery Collection",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "columns_desktop": 4,
-        "enable_desktop_slider": true,
+        "enable_desktop_slider": false,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -183,6 +183,13 @@
     "featured_product_priRQF": {
       "type": "featured-product",
       "blocks": {
+        "variant_picker_z6yqMA": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
         "text_Y6baPV": {
           "type": "text",
           "settings": {
@@ -206,24 +213,18 @@
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
-        },
-        "share_pVbLjy": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
+        "variant_picker_z6yqMA",
         "text_Y6baPV",
         "title_9JWzqb",
         "price_xHq8AJ",
-        "buy_buttons_BfyBzF",
-        "share_pVbLjy"
+        "buy_buttons_BfyBzF"
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
-        "product": "padded-bra-set",
+        "product": "premium-islamic-gift-set",
         "color_scheme": "",
         "secondary_background": false,
         "media_size": "medium",
@@ -241,9 +242,108 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "nightwear",
-        "products_to_show": 4,
+        "collection": "watches",
+        "products_to_show": 25,
         "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_JwMVPy": {
+      "type": "featured-product",
+      "blocks": {
+        "text_HtTWNL": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_cNAVLJ": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_wjMqEb": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_YPJYL7": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_abYxec": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_Y6xBxb": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_gcTWhB": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_HtTWNL",
+        "title_cNAVLJ",
+        "price_wjMqEb",
+        "variant_picker_YPJYL7",
+        "quantity_selector_abYxec",
+        "buy_buttons_Y6xBxb",
+        "share_gcTWhB"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "voudnic-airbud-pro",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_PBVqaP": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "women-essentials",
+        "products_to_show": 25,
+        "title": "Featured collection",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -273,6 +373,8 @@
     "featured_product_XKH3AF",
     "featured_collection_GiiUy7",
     "featured_product_priRQF",
-    "featured_collection_4yBXUW"
+    "featured_collection_4yBXUW",
+    "featured_product_JwMVPy",
+    "featured_collection_PBVqaP"
   ]
 }
