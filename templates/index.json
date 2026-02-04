@@ -13,7 +13,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/ChatGPT_Image_Feb_3_2026_01_00_13_PM.png",
+        "image": "shopify://shop_images/ChatGPT_Image_Feb_4_2026_12_12_47_PM.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "image_behavior": "none",
@@ -26,100 +26,45 @@
         "show_text_below": true
       }
     },
-    "collection_list_rAYhp8": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_HV3Bwg": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "jewellery"
-          }
-        },
-        "featured_collection_6mjL7f": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "nightwear"
-          }
-        },
-        "featured_collection_fP6XaL": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "women-essentials"
-          }
-        },
-        "featured_collection_EpQW6J": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "watches"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_HV3Bwg",
-        "featured_collection_6mjL7f",
-        "featured_collection_fP6XaL",
-        "featured_collection_EpQW6J"
-      ],
-      "custom_css": [
-        ".collection-list .card,.collection-list .card__inner {background: 0; box-shadow: none; padding: 0;}",
-        ".collection-list .media,.collection-list .media img {border-radius: 50%; overflow: hidden; object-fit: cover;}",
-        ".collection-list .icon-wrap {display: none;}",
-        ".collection-list .card__content {text-align: center;}",
-        ".collection-list .card__heading a {text-decoration: none; font: 700 14px \"Playfair Display\", serif; letter-spacing: 1px; text-transform: uppercase;}"
-      ],
-      "name": "t:sections.collection-list.presets.name",
-      "settings": {
-        "title": "<strong>Categories</strong>",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_product_XKH3AF": {
+    "featured_product_7ytHn8": {
       "type": "featured-product",
       "blocks": {
-        "text_YUgCFt": {
+        "text_8qGfdm": {
           "type": "text",
           "settings": {
             "text": "{{ section.settings.product.vendor }}",
             "text_style": "uppercase"
           }
         },
-        "title_PDGDxV": {
+        "title_JknaAi": {
           "type": "title",
           "settings": {
             "heading_size": "h1"
           }
         },
-        "price_V3Fftm": {
+        "price_kCcy9Y": {
           "type": "price",
           "settings": {}
         },
-        "variant_picker_96C9We": {
+        "variant_picker_yp7LUJ": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector_WVwJRP": {
+        "quantity_selector_qLDmeq": {
           "type": "quantity_selector",
           "settings": {}
         },
-        "buy_buttons_hkffpg": {
+        "buy_buttons_kinhLQ": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
         },
-        "share_gWWBmK": {
+        "share_7gGrfN": {
           "type": "share",
           "settings": {
             "share_label": "Share"
@@ -127,13 +72,112 @@
         }
       },
       "block_order": [
-        "text_YUgCFt",
-        "title_PDGDxV",
-        "price_V3Fftm",
-        "variant_picker_96C9We",
-        "quantity_selector_WVwJRP",
-        "buy_buttons_hkffpg",
-        "share_gWWBmK"
+        "text_8qGfdm",
+        "title_JknaAi",
+        "price_kCcy9Y",
+        "variant_picker_yp7LUJ",
+        "quantity_selector_qLDmeq",
+        "buy_buttons_kinhLQ",
+        "share_7gGrfN"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "premium-eid-gift-box",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_DJLMqL": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "watches",
+        "products_to_show": 25,
+        "title": "Our Gift Box Collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_dfWLkJ": {
+      "type": "featured-product",
+      "blocks": {
+        "text_9VL3rB": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_yADEWq": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_Rj7VwE": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_DgjaVX": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_jp7YNz": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_fAQURT": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_6mET99": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_9VL3rB",
+        "title_yADEWq",
+        "price_Rj7VwE",
+        "variant_picker_DgjaVX",
+        "quantity_selector_jp7YNz",
+        "buy_buttons_fAQURT",
+        "share_6mET99"
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
@@ -151,7 +195,7 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection_GiiUy7": {
+    "featured_collection_tFfrRK": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
@@ -164,93 +208,6 @@
         "description_style": "body",
         "columns_desktop": 4,
         "enable_desktop_slider": false,
-        "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_product_priRQF": {
-      "type": "featured-product",
-      "blocks": {
-        "variant_picker_z6yqMA": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "text_Y6baPV": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_9JWzqb": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_xHq8AJ": {
-          "type": "price",
-          "settings": {}
-        },
-        "buy_buttons_BfyBzF": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        }
-      },
-      "block_order": [
-        "variant_picker_z6yqMA",
-        "text_Y6baPV",
-        "title_9JWzqb",
-        "price_xHq8AJ",
-        "buy_buttons_BfyBzF"
-      ],
-      "name": "t:sections.featured-product.presets.name",
-      "settings": {
-        "product": "premium-islamic-gift-set",
-        "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_4yBXUW": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "collection": "watches",
-        "products_to_show": 25,
-        "title": "",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -267,45 +224,45 @@
         "padding_bottom": 36
       }
     },
-    "featured_product_JwMVPy": {
+    "featured_product_gjCJwf": {
       "type": "featured-product",
       "blocks": {
-        "text_HtTWNL": {
+        "text_dgFGUT": {
           "type": "text",
           "settings": {
             "text": "{{ section.settings.product.vendor }}",
             "text_style": "uppercase"
           }
         },
-        "title_cNAVLJ": {
+        "title_zBVAgj": {
           "type": "title",
           "settings": {
             "heading_size": "h1"
           }
         },
-        "price_wjMqEb": {
+        "price_BrJ7AA": {
           "type": "price",
           "settings": {}
         },
-        "variant_picker_YPJYL7": {
+        "variant_picker_qkYfMH": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector_abYxec": {
+        "quantity_selector_fzmEpX": {
           "type": "quantity_selector",
           "settings": {}
         },
-        "buy_buttons_Y6xBxb": {
+        "buy_buttons_G763tw": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
         },
-        "share_gcTWhB": {
+        "share_faQR84": {
           "type": "share",
           "settings": {
             "share_label": "Share"
@@ -313,112 +270,13 @@
         }
       },
       "block_order": [
-        "text_HtTWNL",
-        "title_cNAVLJ",
-        "price_wjMqEb",
-        "variant_picker_YPJYL7",
-        "quantity_selector_abYxec",
-        "buy_buttons_Y6xBxb",
-        "share_gcTWhB"
-      ],
-      "name": "t:sections.featured-product.presets.name",
-      "settings": {
-        "product": "voudnic-airbud-pro",
-        "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_PBVqaP": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "collection": "accessories",
-        "products_to_show": 25,
-        "title": "Daily Essentials",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_product_9cQabY": {
-      "type": "featured-product",
-      "blocks": {
-        "text_T9JJEr": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_acPhKX": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_iVpPad": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_taVKgw": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_gtnKLB": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_bHfth4": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share_zCYpDF": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "text_T9JJEr",
-        "title_acPhKX",
-        "price_iVpPad",
-        "variant_picker_taVKgw",
-        "quantity_selector_gtnKLB",
-        "buy_buttons_bHfth4",
-        "share_zCYpDF"
+        "text_dgFGUT",
+        "title_zBVAgj",
+        "price_BrJ7AA",
+        "variant_picker_qkYfMH",
+        "quantity_selector_fzmEpX",
+        "buy_buttons_G763tw",
+        "share_faQR84"
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
@@ -436,13 +294,112 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection_VMDAGp": {
+    "featured_collection_CLmPDk": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "nightwear",
         "products_to_show": 25,
-        "title": "Our Undergarments Collection",
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_LJ7ahL": {
+      "type": "featured-product",
+      "blocks": {
+        "text_eQHXmD": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_yh3aLp": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_iqK3xd": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_WVUCBe": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_tnnFWJ": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_CbdghK": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_AnJDJc": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_eQHXmD",
+        "title_yh3aLp",
+        "price_iqK3xd",
+        "variant_picker_WVUCBe",
+        "quantity_selector_tnnFWJ",
+        "buy_buttons_CbdghK",
+        "share_AnJDJc"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "voudnic-airbud-pro",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_P8trpX": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "accessories",
+        "products_to_show": 4,
+        "title": "Featured collection",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -468,14 +425,13 @@
   },
   "order": [
     "image_banner_dAeWP8",
-    "collection_list_rAYhp8",
-    "featured_product_XKH3AF",
-    "featured_collection_GiiUy7",
-    "featured_product_priRQF",
-    "featured_collection_4yBXUW",
-    "featured_product_JwMVPy",
-    "featured_collection_PBVqaP",
-    "featured_product_9cQabY",
-    "featured_collection_VMDAGp"
+    "featured_product_7ytHn8",
+    "featured_collection_DJLMqL",
+    "featured_product_dfWLkJ",
+    "featured_collection_tFfrRK",
+    "featured_product_gjCJwf",
+    "featured_collection_CLmPDk",
+    "featured_product_LJ7ahL",
+    "featured_collection_P8trpX"
   ]
 }
