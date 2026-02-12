@@ -13,7 +13,7 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Untitled_design.svg",
+        "image": "shopify://shop_images/ChatGPT_Image_Feb_4_2026_12_12_47_PM_d48fa734-2e1b-4c30-a371-45214abec3fe.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "image_behavior": "none",
@@ -224,105 +224,6 @@
         "padding_bottom": 36
       }
     },
-    "featured_product_dfWLkJ": {
-      "type": "featured-product",
-      "blocks": {
-        "text_9VL3rB": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_yADEWq": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_Rj7VwE": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_DgjaVX": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_jp7YNz": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_fAQURT": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share_6mET99": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "text_9VL3rB",
-        "title_yADEWq",
-        "price_Rj7VwE",
-        "variant_picker_DgjaVX",
-        "quantity_selector_jp7YNz",
-        "buy_buttons_fAQURT",
-        "share_6mET99"
-      ],
-      "name": "t:sections.featured-product.presets.name",
-      "settings": {
-        "product": "emerald-royale-set",
-        "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_tFfrRK": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "collection": "jewellery",
-        "products_to_show": 25,
-        "title": "Our Jewellery Collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_product_LJ7ahL": {
       "type": "featured-product",
       "blocks": {
@@ -429,8 +330,6 @@
     "featured_collection_CLmPDk",
     "featured_product_7ytHn8",
     "featured_collection_DJLMqL",
-    "featured_product_dfWLkJ",
-    "featured_collection_tFfrRK",
     "featured_product_LJ7ahL",
     "featured_collection_P8trpX"
   ]
